@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(35, 58, 35);
+    color:inherit;
+}
+    
+.logo {
+    height: 40x;
+    width: 40px;
+}
+
+h2{
+    color: white;
+}
+h6{
+    color: aliceblue;
+}
+.card-film {
+    min-height: 450px;
+}
+.text-muted {
+    color: #f7f8f8!important;
+}
+
+.card-film .card-body{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:  rgb(167, 177, 153);
+}
+.cor{
+    background: rgb(167, 177, 153);
+}
+
+.navbar-light .navbar-brand{
+color:rgb(35, 58, 35);
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 0.5cm;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: black;
+}
+/* cor do botões */
+.btn-primary {
+    background-color: rgb(35, 58, 35);
+    border-color:  #FFF0F5;
+
+}
+
+.page-item.active .page-link { 
+    background-color:rgb(35, 58, 35);
+    border-color: #FFF0F5;
+}
+
+.footer {
+    background-color: rgb(167, 177, 153);
+}
+.footer a{
+    color: rgba(0,0,0,.9);
+    text-decoration: none;
+    font-size: 1.25em;
+    
+}
